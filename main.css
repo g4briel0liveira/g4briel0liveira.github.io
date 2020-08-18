@@ -230,7 +230,7 @@ header nav .menu li a:hover {
 }
 
 #menu4 img {
-    height: 350px;
+    height: 35rem;
     width: 200;
 }
 
@@ -279,5 +279,15 @@ header nav .menu li a:hover {
 
     #menu1 h2{
         font-size: 20px;
+    }
+
+    #menu4 img {
+        height: 28rem;
+        width: 200;
+    }
+
+    img {
+        width: 18rem;
+        height: 18rem;
     }
 }
