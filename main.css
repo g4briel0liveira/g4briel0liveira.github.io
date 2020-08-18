@@ -273,8 +273,21 @@ header nav .menu li a:hover {
         align-items: center;
         justify-content: center;
     }
-    header{
-        display: none;
+
+    nav .menu li,
+    nav .menu li a{
+        visibility: hidden;
+    }
+
+    nav .menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    nav img{
+        width: 100;
     }
 
     #menu1 h2{
@@ -283,7 +296,6 @@ header nav .menu li a:hover {
 
     #menu4 img {
         height: 28rem;
-        width: 200;
     }
 
     img {
