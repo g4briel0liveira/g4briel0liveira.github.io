@@ -1,0 +1,254 @@
+:root {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font-size: 60%;
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+}
+
+#menu1, #menu2, #menu3, #menu4, #menu5, #menu6 {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 6.25rem;
+    text-align: center;
+    border: 1rem;
+}
+
+h1, h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: yellow;
+    font-size: 2rem;
+    text-shadow: 2px 2px black;
+    text-align: justify;
+}
+
+img {
+    width: 25rem;
+    height: 25rem;
+    border-radius: .8rem;
+    align-items: center;
+}
+
+a {
+    margin-top: 2rem;
+    height: 4.4rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border: 2px solid red;
+    border-radius: .8rem;
+    color: red;
+    text-shadow: .5px .5px .5px white;
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+a:hover {
+    font-size: 1.8rem;
+    color: white;
+    text-shadow: .5px .5px .5px red;
+    background-color: black;
+}
+
+a span {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 28rem;
+    height: 3.6rem;
+    font-weight: bold;
+}
+
+p {
+    color: white;
+}
+
+.texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.padding{
+    padding-bottom: 13rem;
+}
+/* header */
+header {
+    position: fixed;
+    height: 5.5rem;
+    width: 100%;
+    background: black;
+    display: flex;
+    align-items: center;
+}
+
+nav .menu {
+    display: flex;
+    margin: 0 5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav{
+    width: 100%;
+}
+
+header nav .menu li {
+    width: 100%;
+    height: 100%;
+    float: left;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav .menu a{
+    margin-top: 0;
+    padding: 0;
+    border: 0;
+}
+
+header nav .menu a:hover{
+    background-color: black;
+}
+
+header nav .menu img{
+    
+    height: 100%;
+}
+
+header nav .menu li a {
+    width: 90%;
+    height: 4.75rem;
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    display: flex;
+    text-shadow: 1px 1px black;
+    border-radius: .8rem;
+    color: white;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    border: 0;
+    transition: 400ms;
+}
+
+header nav .menu li a:hover {
+    font-size: 1.8rem;
+    background-color: red;
+}
+
+/* Menu 1 */
+
+#menu1 {
+    background: url(/img/Capa.png);
+    background-size: 100% 100%;
+}
+
+#menu1 .titulo {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#menu1 h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    line-height: 0.9;
+    text-shadow: 1px 1px black;
+    font-size: 9rem;
+    padding-bottom: 1rem;
+}
+
+#menu1 h2 {
+    display: flex;
+    width: 50%;
+    margin: 0 30% 0 30%;
+    border-top: 3px solid red;
+    font-family: Arial;
+    font-size: 30px;
+}
+
+#menu1 h2+h2 {
+    display: block;
+    text-align: center;
+    border: 0;
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+    color: red;
+    font-size: 30px;
+}
+
+/* Menu 2 */
+
+#menu2 {
+    background-image: url(/img/IMG-20200224-WA0057.jpg);
+    background-size: 100% 100%;
+}
+
+
+/* Menu 3 */
+
+#menu3 {
+    background-image: url(/img/20200229_161836.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Menu 4 */
+
+#menu4{
+    background-image: url(/img/Pixar.jpg);
+    background-size: 100% 100%;
+}
+
+#menu4 img {
+    height: 350px;
+    width: 200;
+}
+
+/* Menu 5 */
+
+#menu5 {
+    background-image: url(/img/20200223_162018.jpg);
+    background-size: 100% 100%;
+}
+
+/* Menu 6 */
+
+#menu6 {
+    background-image: url(/img/IMG-20200229-WA0048.jpg);
+    background-size: 100% 100%;
+}
+
+#menu6 .red{
+    color: red;
+    padding: 3rem 0 3rem;
+}
